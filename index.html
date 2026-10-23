@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b18">
+  <meta name="description" content="AI Engineer portfolio showcasing machine learning, GenAI, automation, chatbots, and computer vision projects.">
+  <title>AI Engineer Portfolio | Pradnya Patare</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Portfolio home"><span class="brand-mark">AI</span><span>ENGINEER<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#about">About</a><a href="#contact">Contact</a>
+      <a class="nav-cta" href="resume/Pradnya_Patare_4yrs_resumes.pdf" download>Download resume ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO AI / ML OPPORTUNITIES</div>
+        <p class="hero-kicker">HELLO, I'M</p>
+        <h1>Pradnya Patare<span class="gradient-text">.</span></h1>
+        <h2>Building useful things with <span class="gradient-text">AI.</span></h2>
+        <p class="hero-description">AI / ML Engineer focused on Python, LLM-powered applications, intelligent automation, document processing, and computer vision. I turn practical problems into measurable, maintainable solutions.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore projects <span>↘</span></a>
+          <a class="button button-secondary" href="resume/Pradnya_Patare_4yrs_resumes.pdf" download>Get my resume <span>↓</span></a>
+        </div>
+        <div class="quick-facts">
+          <div><strong>AI / ML</strong><span>Core focus</span></div>
+          <div><strong>Python</strong><span>Primary language</span></div>
+          <div><strong>Build · Test · Ship</strong><span>Engineering mindset</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative AI network illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="core"><span class="core-icon">✳</span><span>AI</span><small>IDEAS → SYSTEMS</small></div>
+        <div class="float-chip chip-python"><span class="chip-icon">Py</span> Python</div>
+        <div class="float-chip chip-llm"><span class="chip-icon">✧</span> LLMs</div>
+        <div class="float-chip chip-vision"><span class="chip-icon">◉</span> Computer Vision</div>
+        <div class="float-chip chip-api"><span class="chip-icon">{ }</span> APIs</div>
+      </div>
+      <a class="scroll-hint" href="#projects"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-heading">
+        <div><p class="eyebrow">SELECTED WORK</p><h2>Projects with a <span class="gradient-text">purpose.</span></h2></div>
+        <p class="section-intro">A selection of AI application areas. Open a project to explore its purpose, workflow, architecture, and implementation considerations.</p>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter projects">
+        <button class="filter-chip active" data-filter="all">All projects</button>
+        <button class="filter-chip" data-filter="genai">GenAI & Automation</button>
+        <button class="filter-chip" data-filter="ml">Machine Learning</button>
+        <button class="filter-chip" data-filter="vision">Computer Vision</button>
+      </div>
+      <div class="project-grid" id="project-grid">
+        <article class="project-card" data-category="genai">
+          <div class="project-visual visual-resume"><span class="visual-label">DOCUMENT AI</span><div class="doc-stack"><div class="doc-sheet"><i></i><i></i><i></i><b>CV</b></div><div class="scan-line"></div></div><div class="visual-caption">Extract · Validate · Structure</div></div>
+          <div class="project-content"><div class="project-meta"><span>01 / AUTOMATION</span><span class="project-status">Showcase draft</span></div><h3>Resume Processing & OCR</h3><p>Resume parsing workflow concept for extracting candidate details, skills, and experience from PDFs, with OCR fallback for scanned documents.</p><div class="tag-list"><span>Python</span><span>FastAPI</span><span>OCR</span><span>MongoDB</span></div><div class="project-links"><a href="#contact" class="text-link">Discuss project ↗</a><span class="link-placeholder">Add verified repo</span></div></div>
+        </article>
+        <article class="project-card" data-category="genai">
+          <div class="project-visual visual-chat"><span class="visual-label">CONVERSATIONAL AI</span><div class="chat-window"><div class="chat-top"><i></i><i></i><i></i><span>assistant.session</span></div><div class="chat-bubble user-bubble">How can I track my request?</div><div class="chat-bubble ai-bubble">I can help route your question to the right category.</div><div class="chat-input">Ask a question… <b>↑</b></div></div><div class="visual-caption">Understand · Classify · Respond</div></div>
+          <div class="project-content"><div class="project-meta"><span>02 / NLP</span><span class="project-status">Showcase draft</span></div><h3>Customer Support Chatbot</h3><p>Conversational support and message classification concept to categorize incoming requests and help direct them to the appropriate support workflow.</p><div class="tag-list"><span>Python</span><span>Scikit-learn</span><span>NLP</span><span>FastAPI</span></div><div class="project-links"><a href="#contact" class="text-link">Discuss project ↗</a><span class="link-placeholder">Add verified repo</span></div></div>
+        </article>
+        <article class="project-card" data-category="genai">
+          <div class="project-visual visual-agent"><span class="visual-label">AGENTIC WORKFLOWS</span><div class="workflow"><div class="flow-node">USER<br>REQUEST</div><span>→</span><div class="flow-node flow-active">AI<br>AGENT</div><span>→</span><div class="flow-node">TOOLS<br>/ APIs</div></div><div class="workflow-line"></div><div class="visual-caption">Plan · Call tools · Verify</div></div>
+          <div class="project-content"><div class="project-meta"><span>03 / AGENTIC AI</span><span class="project-status">Concept / update status</span></div><h3>Agentic Workflow Automation</h3><p>Showcase an agent workflow that decomposes a request into steps, selects approved tools, calls APIs, and reports results with human oversight where needed.</p><div class="tag-list"><span>LLMs</span><span>LangGraph</span><span>MCP</span><span>API tools</span></div><div class="project-links"><a href="#contact" class="text-link">Discuss project ↗</a><span class="link-placeholder">Add verified repo</span></div></div>
+        </article>
+        <article class="project-card" data-category="genai">
+          <div class="project-visual visual-rag"><span class="visual-label">RETRIEVAL-AUGMENTED GENERATION</span><div class="rag-stack"><div class="rag-doc">PDF / DOCX <b>↘</b></div><div class="rag-arrow">↓</div><div class="rag-embedding">EMBEDDINGS + VECTOR SEARCH</div><div class="rag-arrow">↓</div><div class="rag-answer">GROUNDED ANSWER + SOURCES</div></div><div class="visual-caption">Retrieve relevant context</div></div>
+          <div class="project-content"><div class="project-meta"><span>04 / RAG</span><span class="project-status">Showcase draft</span></div><h3>Chat with Documents</h3><p>Document question-answering concept that retrieves relevant passages and uses them as context to produce grounded answers.</p><div class="tag-list"><span>LangChain</span><span>Embeddings</span><span>Vector DB</span><span>LLMs</span></div><div class="project-links"><a href="#contact" class="text-link">Discuss project ↗</a><span class="link-placeholder">Add verified repo</span></div></div>
+        </article>
+        <article class="project-card" data-category="vision">
+          <div class="project-visual visual-vision"><span class="visual-label">COMPUTER VISION</span><div class="vision-frame"><div class="bbox bbox-one"><span>person · 0.94</span></div><div class="bbox bbox-two"><span>object · 0.88</span></div><div class="crosshair">+</div></div><div class="visual-caption">Detect · Track · Analyze</div></div>
+          <div class="project-content"><div class="project-meta"><span>05 / VISION</span><span class="project-status">Showcase draft</span></div><h3>Video & Object Analysis</h3><p>Computer vision showcase for detecting objects or people in images/video and presenting annotated outputs for review.</p><div class="tag-list"><span>Python</span><span>OpenCV</span><span>YOLO</span><span>Deep Learning</span></div><div class="project-links"><a href="#contact" class="text-link">Discuss project ↗</a><span class="link-placeholder">Add verified repo</span></div></div>
+        </article>
+        <article class="project-card" data-category="ml">
+          <div class="project-visual visual-classifier"><span class="visual-label">MACHINE LEARNING</span><div class="classify-panel"><div class="classify-row"><span>Billing</span><div><i style="width:84%"></i></div><b>0.84</b></div><div class="classify-row"><span>Technical</span><div><i style="width:63%"></i></div><b>0.63</b></div><div class="classify-row"><span>Account</span><div><i style="width:38%"></i></div><b>0.38</b></div></div><div class="visual-caption">Train · Evaluate · Improve</div></div>
+          <div class="project-content"><div class="project-meta"><span>06 / CLASSIFICATION</span><span class="project-status">Showcase draft</span></div><h3>Message Classification</h3><p>Supervised text-classification workflow comparing baseline models such as Logistic Regression and SVM using appropriate evaluation metrics.</p><div class="tag-list"><span>Scikit-learn</span><span>Logistic Regression</span><span>SVM</span><span>Model evaluation</span></div><div class="project-links"><a href="#contact" class="text-link">Discuss project ↗</a><span class="link-placeholder">Add verified repo</span></div></div>
+        </article>
+      </div>
+      <p class="disclaimer"><span>ⓘ</span> Portfolio note: project cards are editable descriptions, not claims that a live application or public repository exists. Replace draft labels with verified status and evidence.</p>
+    </section>
+
+    <section class="section-wrap section-block skills-section" id="skills">
+      <div class="section-heading"><div><p class="eyebrow">TOOLKIT</p><h2>Technologies I <span class="gradient-text">work with.</span></h2></div><p class="section-intro">Keep this list aligned with tools you can confidently explain and demonstrate in an interview.</p></div>
+      <div class="skills-grid">
+        <div class="skill-group"><div class="skill-icon">⌘</div><h3>Programming & APIs</h3><p>Python · FastAPI · REST APIs · Async programming · Multithreading</p></div>
+        <div class="skill-group"><div class="skill-icon">◈</div><h3>Generative AI</h3><p>LLMs · Prompt engineering · LangChain · RAG · Agentic workflows · MCP concepts</p></div>
+        <div class="skill-group"><div class="skill-icon">▦</div><h3>Machine Learning</h3><p>Scikit-learn · Classification · Feature engineering · Model evaluation</p></div>
+        <div class="skill-group"><div class="skill-icon">◉</div><h3>Computer Vision & OCR</h3><p>OpenCV · YOLO · PyMuPDF · EasyOCR · Image preprocessing</p></div>
+        <div class="skill-group"><div class="skill-icon">⌗</div><h3>Data & Storage</h3><p>MongoDB · Pandas · NumPy · PDF and Excel processing</p></div>
+        <div class="skill-group"><div class="skill-icon">↗</div><h3>Deployment & Tools</h3><p>Git · GitHub · Docker basics · Cloud deployment concepts</p></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block about-section" id="about">
+      <div class="about-card"><div class="about-orb">AI<span>+</span></div><div><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Practical AI. <span class="gradient-text">Real problems.</span></h2><p>I build and explore AI-powered applications across document processing, chatbots, text classification, automation, and computer vision. My engineering interests include designing clear APIs, making workflows reliable, handling edge cases, and presenting model outputs in ways people can use.</p><p class="about-note">Personalize this section with your verified work experience, education, and the projects you can confidently discuss.</p></div></div>
+    </section>
+
+    <section class="section-wrap section-block contact-section" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p><h2>Have an AI challenge in mind<span class="gradient-text">?</span></h2><p class="contact-copy">I’m interested in AI / ML engineering opportunities and practical AI projects.</p>
+      <div class="contact-actions">
+        <a class="button button-primary" href="mailto:ai.pradnyap@gmail.com?subject=AI%20Engineer%20Opportunity">Email me ↗ </a>
+        <a class="button button-secondary" id="github-link" href="https://github.com/pradnya770" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="button button-secondary" id="linkedin-link" href="https://www.linkedin.com/in/pradnya-patare-data-scientist/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+      </div>
+      <p class="small-note">Update the email, GitHub, LinkedIn, and resume file before publishing.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">AI</span><span>ENGINEER<span class="brand-dot">.</span></span></a><span>Designed to showcase work, learning, and engineering craft.</span><a href="#home">Back to top ↑</a></footer>
+  <div class="project-slides flow-overlay" id="projectSlides" aria-hidden="true">
+    <section class="flow-panel" role="dialog" aria-modal="true" aria-labelledby="flowTitle">
+      <header class="flow-header">
+        <div><span id="slideCategory">PROJECT WORKFLOW</span><h2 id="flowTitle">Project workflow</h2></div>
+        <button class="slide-close" id="slideClose" aria-label="Close project workflow">×</button>
+      </header>
+      <p id="slideDescription" class="flow-description"></p>
+      <div class="flow-summary"><span>PROJECT FOCUS</span><p id="slideFocus"></p></div>
+      <div class="flow-context-grid">
+        <section><span>PROBLEM</span><p id="slideProblem"></p></section>
+        <section><span>APPROACH</span><p id="slideSolution"></p></section>
+      </div>
+      <h3 class="flow-section-title">Interactive workflow</h3>
+      <p class="slide-subtitle" id="slideWorkflowSubtitle">Follow the flow from input to output.</p>
+      <div class="slide-workflow" id="slideWorkflow"></div>
+      <div class="flow-lower">
+        <section><h3>Technologies</h3><div class="slide-tech-grid" id="slideTech"></div></section>
+        <section><h3>Implementation notes</h3><ul class="slide-details" id="slideDetails"></ul><p id="slideRepoNote" class="flow-note">Illustrative workflow — reflect only features actually implemented.</p></section>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
