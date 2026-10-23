@@ -371,3 +371,4 @@ document.querySelectorAll(".project-card").forEach(card=>{
 closeSlides.addEventListener("click",closeProjectSlides);
 projectPresentation.addEventListener("click",event=>{if(event.target===projectPresentation)closeProjectSlides();});
 document.addEventListener("keydown",event=>{if(!projectPresentation.classList.contains("active"))return;if(event.key==="Escape")closeProjectSlides();});
+
