@@ -445,3 +445,40 @@ body.slides-open {
 .agentic-node.selected{outline:2px solid #b3a3ff;box-shadow:0 0 0 4px #a99aff20;transform:translateY(-2px)}
 .agentic-node{cursor:pointer;text-align:left;color:inherit;transition:transform .18s ease,box-shadow .18s ease}
 @media(max-width:700px){.flow-context-grid{grid-template-columns:1fr}}
+
+
+/* Increase only About section paragraph text */
+.about-card p:not(.eyebrow) {
+  font-size: 17px;
+  line-height: 1.9;
+}
+
+
+/* Make the final About paragraph more readable */
+.about-card p.about-note {
+  font-size: 18px !important;
+  line-height: 1.8;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .about-card p.about-note {
+    font-size: 17px !important;
+    line-height: 1.8;
+  }
+}
+
+
+
+/* Responsive paragraph text */
+@media (max-width: 760px) {
+  .about-card p:not(.eyebrow) {
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  .about-card .about-note {
+    font-size: 17px;
+  }
+}
